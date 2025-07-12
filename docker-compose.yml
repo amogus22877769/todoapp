@@ -1,0 +1,8 @@
+networks:
+  prod:
+
+services:
+  frontend:
+    build: ./todoapp
+    ports:
+      - "5173:80"
